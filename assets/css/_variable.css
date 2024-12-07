@@ -1,0 +1,19 @@
+/* Light Mode Variables */
+:root {
+    --background-color: #f5f5f5; /* White background for light mode */
+    --text-color: #333333; /* Dark text color for light mode */
+    --link-color: #007bff; /* Blue links in light mode */
+    --border-color: #e0e0e0; /* Light border color */
+    --button-background: #007bff; /* Light mode button background */
+    --button-text: #ffffff; /* White button text */
+}
+
+/* Dark Mode Variables */
+body.dark-mode {
+    --background-color: #141010; /* Dark background for dark mode */
+    --text-color: #f4f4f4; /* Light text color for dark mode */
+    --link-color: #4fa3f7; /* Lighter blue links for dark mode */
+    --border-color: #333333; /* Darker border color */
+    --button-background: #444; /* Dark mode button background */
+    --button-text: #ffffff; /* White button text */
+}
